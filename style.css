@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgb(255, 11, 85);
+}
+header{
+    background-color: rgb(255, 204, 36);
+    color:white;
+    padding:0 10%;
+}
+header> h1{
+    display: inline-block;
+    margin-left: 30px;
+}
+#logo{
+    width: 90px;
+}
+nav{
+    margin:10px 10%;
+}
+nav>a{
+    padding: 0 10px;
+}
+#pokedex{
+    width: 750px;
+    margin: 50px auto;
+}
+#left{
+    width: 250px;
+    height: 300px;
+    float:left;
+    background-color: #3498DB;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#right{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    background-color:rgb(255, 197, 37);
+    border-left-color:#0a5f46;
+    border-left-style: solid;
+    border-left-width: 3px;
+    float:left;
+    border-bottom-right-radius: 30px;
+}
+.display{
+    border-color:gray;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
+#left > .display{
+    width: 180px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 40px;
+    background-color:white;
+}
+
+#left > .display> img{
+    margin-left: 15px;
+    height: 100%;
+}
+#dpad{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+#dpad-t,#dpad-b{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: white; 
+}
+#dpad-h{
+    width: 60px;
+    height: 20px;
+    background-color:white; 
+}
+#btn-circle{
+    width: 50px;
+    height: 50px;
+    margin-left: 95px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    background-color:rgb(255, 11, 85);
+    display: inline-block;
+}
+#right > .display{
+    width: 180px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #359b57;
+    font-size: 12px;
+}
+#pad{
+    width: 148px;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#pad > .btn{
+    width: 25px;
+    height: 25px;
+    background-color: #3498DB;
+    display:inline-block;
+    border-style: solid;
+    border-color: #155179;
+    border-width: 2px;
+    border-color: 3px;
+}
+ul{
+    margin: 0;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+}
+li>p{
+    margin: 0 5px;
+}
+#c{
+    float:left;
+        list-style-type: none;
+        overflow: hidden;
+        background-color:white;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+}
+#b{
+    float:left;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 197, 37);
+        display: block;
+        text-align: center;
+        text-decoration: none;
+}
