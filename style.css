@@ -8,6 +8,16 @@ header{
     color:white;
     padding:0 10%;
 }
+#c{
+    width:700px;
+    height: 30px;
+    background-color:#3498DB;
+}
+#b{
+    width:700px;
+    height: 30px;
+    background-color:rgb(255, 204, 36);
+}
 header> h1{
     display: inline-block;
     margin-left: 30px;
@@ -124,23 +134,26 @@ li{
 li>p{
     margin: 0 5px;
 }
-#c{
-    float:left;
-        list-style-type: none;
-        overflow: hidden;
-        background-color:white;
-        display: block;
-        text-align: center;
-        text-decoration: none;
+@media only screen and (max-width:767px){
+    body{
+        font-size: 10px;
+        width: 300px;
+        margin: 05px;
+    }
 }
-#b{
-    float:left;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(255, 197, 37);
-        display: block;
-        text-align: center;
-        text-decoration: none;
+@media only screen and (min-width:768px){
+    body{
+        font-size:10px;
+        width: 600px;
+        margin: 05px;   
+    }
 }
+@media only screen and (min-width:1024px) {
+    body{
+        font-size:15px;
+        width: 1500px;
+        margin: 0px; 
+    }
+    
+}
+
